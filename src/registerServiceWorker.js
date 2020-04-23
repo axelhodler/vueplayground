@@ -20,6 +20,7 @@ if (process.env.NODE_ENV === 'production') {
       console.log('New content is downloading.')
     },
     updated () {
+      window.prompt('new version make it yours')
       console.log('New content is available; please refresh.')
     },
     offline () {
