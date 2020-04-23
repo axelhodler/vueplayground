@@ -23,8 +23,8 @@ npm run build
 serve dist
 ```
 
-first load will update the service worker - and give an option to reload or prompt the user to reload
-second load will update the page
+* first load will update the service worker - and give an option to reload or prompt the user to reload
+* second load will update the page
 
 ## Remove cache busting
 
