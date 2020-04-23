@@ -1,24 +1,11 @@
 # vueplayground
 
-## Project setup
-```
-npm install
-```
+## Got here by
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
+npm install -g @vue/cli
+npm install -g serve
+vue create vueplayground
 npm run build
+serve dist
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
